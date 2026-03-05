@@ -1,0 +1,18 @@
+.banner{
+    background-image: url(../assets/img/chevi.webp);
+    padding: 25%;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+
+
+.img-grafico {
+    width: 100%;
+    height: 300px;        /* ajusta este valor a tu gusto */
+    object-fit: contain;  /* "contain" para no recortar, "cover" si prefieres que llene */
+}
