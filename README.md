@@ -1,20 +1,19 @@
 front de analitica 📟💻
-📦 FINAL_URIBE
+📦 FINAL_URIBE_FRONT
 Aplicación web para la gestión y registro de ventas, con autenticación de usuarios y panel de control.
 
 🗂️ Estructura del Proyecto
 FINAL_URIBE/
 ├── assets/
 │   ├── img/                  # Imágenes del proyecto
-│   └── styles.css            # Estilos globales
-├── controllers/              
-├── services/                 
+├── styles.css               # Estilos globales
+├── js/(autenticacion.js)     # Autenticacion           
 └── views/
-    ├── index.html            # Página principal / Login
-    ├── dashboard.html        # Panel de control
-    ├── registrarse.html      # Registro de nuevos usuarios
-    ├── recuperar.html        # Recuperación de contraseña
-    └── registroVentas.html   # Registro de ventas
+|    ├── dashboard.html        # Panel de control
+|    ├── registrarse.html      # Registro de nuevos usuarios
+|    ├── recuperar.html        # Recuperación de contraseña
+|    └── registroVentas.html   # Registro de ventas
+├── index.html            # Página principal / Login
 
 🚀 Características
 
@@ -31,7 +30,7 @@ TecnologíaUsoHTML5Estructura de vistasCSS3Estilos y diseñoJavaScriptControlado
 
 Clona el repositorio:
 
-bash   git clone https://github.com/tu-usuario/FINAL_URIBE.git
+bash   git clone https://github.com/tu-usuario/final_uribe_front.git
 
 Abre el proyecto en tu editor (recomendado: VS Code).
 Ejecuta el archivo index.html con un servidor local:
